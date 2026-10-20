@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 3</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age" checked />
+        <label for="age">I am 18+ </label>
+        <button>submit</button>
+
+        <br/>
+        <input type="radio" id="apple" name="fruit" value="apple" />
+        <label for="apple">Apple</label>
+        <button>submit</button>
+
+        <div>
+            Choose your profession
+            <select name="profession" id="profession">
+                <option>select your option</option>
+                <option value="stu">student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+
+            <label for="vol">Select your volume level : </label>
+            <input type="range" id="vol" min="0" max="100" value="vol" step="10" />
+            <button>submit</button>
+    </form>
+
+    <br />
+    <label for="feedback">Please provide your valuable feedback : </label>
+    <textarea id="feedback"></textarea>
+    <button>submit</button>
+</body>
+</html>
